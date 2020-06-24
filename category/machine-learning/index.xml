@@ -33,6 +33,7 @@ In this work, we applied the virtual environment to approach to a not yet consid
 &lt;p&gt;Face Detection is powered by Haar Cascade Classifier. Face Feature are extracted by VGG2 trained on VGGFace2.&lt;/p&gt;
 &lt;p&gt;Classification is performed by weighted kNN on the extracted face features.&lt;/p&gt;
 &lt;p&gt;Data processing is powered by OpenCV for Java.&lt;/p&gt;
+&lt;p&gt;GitHub page: &lt;a href=&#34;https://github.com/MeloniZippoProjects/MultimediaProject&#34;&gt;https://github.com/MeloniZippoProjects/MultimediaProject&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
