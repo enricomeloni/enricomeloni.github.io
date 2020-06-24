@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chkb | Academic</title>
+    <link>https://enricomeloni.github.io/tag/chkb/</link>
+      <atom:link href="https://enricomeloni.github.io/tag/chkb/index.xml" rel="self" type="application/rss+xml" />
+    <description>chkb</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:05 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>chkb</title>
+      <link>https://enricomeloni.github.io/tag/chkb/</link>
+    </image>
+    
+    <item>
+      <title>CHKB</title>
+      <link>https://enricomeloni.github.io/project/chkb/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:05 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/chkb/</guid>
+      <description>&lt;p&gt;Validation, correction and extension of CHKB, an encyclopedic web app which main objective is to bring together all informations about computers and more generally about information science history.&lt;/p&gt;
+&lt;p&gt;Project Page: &lt;a href=&#34;https://www.progettohmr.it/CHKB/&#34;&gt;https://www.progettohmr.it/CHKB/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

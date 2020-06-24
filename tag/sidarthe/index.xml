@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sidarthe | Academic</title>
+    <link>https://enricomeloni.github.io/tag/sidarthe/</link>
+      <atom:link href="https://enricomeloni.github.io/tag/sidarthe/index.xml" rel="self" type="application/rss+xml" />
+    <description>sidarthe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:27 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>sidarthe</title>
+      <link>https://enricomeloni.github.io/tag/sidarthe/</link>
+    </image>
+    
+    <item>
+      <title>Learning SIR/SIDARTHE</title>
+      <link>https://enricomeloni.github.io/project/covid-tools/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:27 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/covid-tools/</guid>
+      <description>&lt;p&gt;The COVID-19 outbreak has stimulated the interest in the proposal of novel epidemiological models to predict the course of the epidemic so as to help planning effective control strategies. In particular, in order to properly interpret the available data, it has become clear that one must go beyond most classic epidemiological models and consider models that, like the recently proposed SIDARTHE, offer a richer description of the stages of infection. The problem of learning the parameters of these models is of crucial importance especially when assuming that they are time-variant, which further enriches their effectiveness. This project focuses on developing a general approach for learning time-variant parameters of dynamic compartmental models from epidemic data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

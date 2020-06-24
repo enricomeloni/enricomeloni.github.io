@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distributed simulations | Academic</title>
+    <link>https://enricomeloni.github.io/tag/distributed-simulations/</link>
+      <atom:link href="https://enricomeloni.github.io/tag/distributed-simulations/index.xml" rel="self" type="application/rss+xml" />
+    <description>distributed simulations</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:46:57 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>distributed simulations</title>
+      <link>https://enricomeloni.github.io/tag/distributed-simulations/</link>
+    </image>
+    
+    <item>
+      <title>Lockstep Library</title>
+      <link>https://enricomeloni.github.io/project/lockstep-library/</link>
+      <pubDate>Wed, 24 Jun 2020 15:46:57 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/lockstep-library/</guid>
+      <description>&lt;p&gt;This library was developed as group project for Concurrent and Distributed Systems course.&lt;/p&gt;
+&lt;p&gt;The idea behind this project was to implement first-hand a synchronization layer like most multiplayer games use nowadays. The simulation (game) in object is collaborative effort where multiple clients generate inputs that drive it. The synchronization layer has to guarantee that each client processes inputs in the correct order so that everyone has a consistent view of the simulation, without ever sharing its state directly.&lt;/p&gt;
+&lt;p&gt;We chose to implement the most strict version of lockstep, which doesn&amp;rsquo;t allow for the simulation to go on speculatively in case of delays, contrary to most games. We also chose the client-server structure, which should give the lowest delay in most cases. In order to make the library as generic as possible, we chose to use Java Serialization for marshalling/unmarshalling. This gives a huge overhead in terms of bandwidth, and should be reconsidered given the specific application needs.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

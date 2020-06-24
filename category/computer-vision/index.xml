@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer vision | Academic</title>
+    <link>https://enricomeloni.github.io/category/computer-vision/</link>
+      <atom:link href="https://enricomeloni.github.io/category/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:32 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>computer vision</title>
+      <link>https://enricomeloni.github.io/category/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>SAILab Virtual Environmnet</title>
+      <link>https://enricomeloni.github.io/project/lve/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:32 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/lve/</guid>
+      <description>&lt;p&gt;SAILab Virtual Environment is a part of the Learning In Visual Environments project at SAILab (&lt;a href=&#34;http://sailab.diism.unisi.it/lve/)&#34;&gt;http://sailab.diism.unisi.it/lve/)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The virtual environment is developed with Unity3D and exposes useful information for training a Visual Agents, including full pixel-wise supervisions, optical flow, and depth for each produced frame. Frames are produced at real-time speed, and are accessible through a Python API designed to easily interface with the most widely adopted Machine Learning frameworks.&lt;/p&gt;
+&lt;p&gt;The software and source code will be soon available.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

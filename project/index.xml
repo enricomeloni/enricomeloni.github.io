@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Academic</title>
+    <link>https://enricomeloni.github.io/project/</link>
+      <atom:link href="https://enricomeloni.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:48:01 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://enricomeloni.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Object Detection with V-DAENY</title>
+      <link>https://enricomeloni.github.io/project/daeny/</link>
+      <pubDate>Wed, 24 Jun 2020 15:48:01 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/daeny/</guid>
+      <description>&lt;p&gt;Recently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.
+To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution. 
+In this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.&lt;/p&gt;
+&lt;p&gt;GitHub page: &lt;a href=&#34;https://github.com/enricomeloni/GTA5_Mods&#34;&gt;https://github.com/enricomeloni/GTA5_Mods&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Recognition App</title>
+      <link>https://enricomeloni.github.io/project/facerecognition/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:45 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/facerecognition/</guid>
+      <description>&lt;p&gt;This Android app performs face recognition and identification through the smartphone&amp;rsquo;s camera. The app uses an internal database containing the known identities, including sample photos. The app allows the user to check the database content, delete or add new identities.&lt;/p&gt;
+&lt;p&gt;Face Detection is powered by Haar Cascade Classifier. Face Feature are extracted by VGG2 trained on VGGFace2.&lt;/p&gt;
+&lt;p&gt;Classification is performed by weighted kNN on the extracted face features.&lt;/p&gt;
+&lt;p&gt;Data processing is powered by OpenCV for Java.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exp Launcher</title>
+      <link>https://enricomeloni.github.io/project/explauncher/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:38 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/explauncher/</guid>
+      <description>&lt;h2 id=&#34;warning-this-is-an-ongoing-project&#34;&gt;WARNING: This is an ongoing project&lt;/h2&gt;
+&lt;p&gt;Experiment Launcher (temporary name) is a scientific utility aimed at storing the experimental results out-putted by a third party software. It allows the user to specify an experiment with a set of parameters andan executable file, and then proceeds to launch the executable and collecting the output. The output is then provided to the user in a human-friendly interface, recording important information such as the date and timewhen the experiment was launched, the parameters, and also the executable version (if version control is used).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SAILab Virtual Environmnet</title>
+      <link>https://enricomeloni.github.io/project/lve/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:32 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/lve/</guid>
+      <description>&lt;p&gt;SAILab Virtual Environment is a part of the Learning In Visual Environments project at SAILab (&lt;a href=&#34;http://sailab.diism.unisi.it/lve/)&#34;&gt;http://sailab.diism.unisi.it/lve/)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The virtual environment is developed with Unity3D and exposes useful information for training a Visual Agents, including full pixel-wise supervisions, optical flow, and depth for each produced frame. Frames are produced at real-time speed, and are accessible through a Python API designed to easily interface with the most widely adopted Machine Learning frameworks.&lt;/p&gt;
+&lt;p&gt;The software and source code will be soon available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning SIR/SIDARTHE</title>
+      <link>https://enricomeloni.github.io/project/covid-tools/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:27 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/covid-tools/</guid>
+      <description>&lt;p&gt;The COVID-19 outbreak has stimulated the interest in the proposal of novel epidemiological models to predict the course of the epidemic so as to help planning effective control strategies. In particular, in order to properly interpret the available data, it has become clear that one must go beyond most classic epidemiological models and consider models that, like the recently proposed SIDARTHE, offer a richer description of the stages of infection. The problem of learning the parameters of these models is of crucial importance especially when assuming that they are time-variant, which further enriches their effectiveness. This project focuses on developing a general approach for learning time-variant parameters of dynamic compartmental models from epidemic data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WanRaptor</title>
+      <link>https://enricomeloni.github.io/project/wanraptor/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:08 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/wanraptor/</guid>
+      <description>&lt;p&gt;WanRaptor is my first job as a Software Engineer and Project Manager with a big enterprise.&lt;/p&gt;
+&lt;p&gt;The WanRaptor is an embedded system used to validate an application in a lab environment by emulating bandwidth limitations, latency, packets loss and jitter commonly found in WANs.&lt;/p&gt;
+&lt;p&gt;The project involved the development from the ground up of the full-stack Graphical User Interface, including management of hardware resources, installation, secure licensing and user interaction.&lt;/p&gt;
+&lt;p&gt;The WanRaptor is widely used in many laboraties all over United States and further.&lt;/p&gt;
+&lt;p&gt;Product page: &lt;a href=&#34;https://www.ecdata.com/Products/Network-Latency-Emulators/&#34;&gt;https://www.ecdata.com/Products/Network-Latency-Emulators/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CHKB</title>
+      <link>https://enricomeloni.github.io/project/chkb/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:05 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/chkb/</guid>
+      <description>&lt;p&gt;Validation, correction and extension of CHKB, an encyclopedic web app which main objective is to bring together all informations about computers and more generally about information science history.&lt;/p&gt;
+&lt;p&gt;Project Page: &lt;a href=&#34;https://www.progettohmr.it/CHKB/&#34;&gt;https://www.progettohmr.it/CHKB/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lockstep Library</title>
+      <link>https://enricomeloni.github.io/project/lockstep-library/</link>
+      <pubDate>Wed, 24 Jun 2020 15:46:57 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/lockstep-library/</guid>
+      <description>&lt;p&gt;This library was developed as group project for Concurrent and Distributed Systems course.&lt;/p&gt;
+&lt;p&gt;The idea behind this project was to implement first-hand a synchronization layer like most multiplayer games use nowadays. The simulation (game) in object is collaborative effort where multiple clients generate inputs that drive it. The synchronization layer has to guarantee that each client processes inputs in the correct order so that everyone has a consistent view of the simulation, without ever sharing its state directly.&lt;/p&gt;
+&lt;p&gt;We chose to implement the most strict version of lockstep, which doesn&amp;rsquo;t allow for the simulation to go on speculatively in case of delays, contrary to most games. We also chose the client-server structure, which should give the lowest delay in most cases. In order to make the library as generic as possible, we chose to use Java Serialization for marshalling/unmarshalling. This gives a huge overhead in terms of bandwidth, and should be reconsidered given the specific application needs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABE Photo Sharing</title>
+      <link>https://enricomeloni.github.io/project/abe-photo-sharing/</link>
+      <pubDate>Wed, 24 Jun 2020 15:46:48 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/abe-photo-sharing/</guid>
+      <description>&lt;p&gt;The application is a secure photo sharing service which uses KPABE encryption to enforce access to pictures exclusively to allowed users. The application is written in C# for the Windows platform and depends on a KPABE command line implementation&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&#34;https://github.com/MeloniZippoProjects/ABEPhotoSharing&#34;&gt;https://github.com/MeloniZippoProjects/ABEPhotoSharing&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

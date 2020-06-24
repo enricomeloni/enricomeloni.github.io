@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kpabe | Academic</title>
+    <link>https://enricomeloni.github.io/tag/kpabe/</link>
+      <atom:link href="https://enricomeloni.github.io/tag/kpabe/index.xml" rel="self" type="application/rss+xml" />
+    <description>kpabe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:46:48 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>kpabe</title>
+      <link>https://enricomeloni.github.io/tag/kpabe/</link>
+    </image>
+    
+    <item>
+      <title>ABE Photo Sharing</title>
+      <link>https://enricomeloni.github.io/project/abe-photo-sharing/</link>
+      <pubDate>Wed, 24 Jun 2020 15:46:48 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/abe-photo-sharing/</guid>
+      <description>&lt;p&gt;The application is a secure photo sharing service which uses KPABE encryption to enforce access to pictures exclusively to allowed users. The application is written in C# for the Windows platform and depends on a KPABE command line implementation&lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&#34;https://github.com/MeloniZippoProjects/ABEPhotoSharing&#34;&gt;https://github.com/MeloniZippoProjects/ABEPhotoSharing&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
