@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>distributed systems | Academic</title>
+    <title>distributed systems | Enrico Meloni</title>
     <link>https://enricomeloni.github.io/tag/distributed-systems/</link>
       <atom:link href="https://enricomeloni.github.io/tag/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>distributed systems</description>

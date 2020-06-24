@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://enricomeloni.github.io/</loc>
-    <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://enricomeloni.github.io/authors/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
   </url>
@@ -34,6 +29,11 @@
   
   <url>
     <loc>https://enricomeloni.github.io/author/enrico-meloni/</loc>
+    <lastmod>2020-06-24T15:48:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
   </url>
   

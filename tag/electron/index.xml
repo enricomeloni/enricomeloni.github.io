@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>electron | Academic</title>
+    <title>electron | Enrico Meloni</title>
     <link>https://enricomeloni.github.io/tag/electron/</link>
       <atom:link href="https://enricomeloni.github.io/tag/electron/index.xml" rel="self" type="application/rss+xml" />
     <description>electron</description>
