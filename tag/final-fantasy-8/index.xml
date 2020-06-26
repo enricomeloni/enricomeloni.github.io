@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>final fantasy 8 | Enrico Meloni</title>
+    <link>https://enricomeloni.github.io/tag/final-fantasy-8/</link>
+      <atom:link href="https://enricomeloni.github.io/tag/final-fantasy-8/index.xml" rel="self" type="application/rss+xml" />
+    <description>final fantasy 8</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jun 2020 19:46:47 +0200</lastBuildDate>
+    <image>
+      <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
+      <title>final fantasy 8</title>
+      <link>https://enricomeloni.github.io/tag/final-fantasy-8/</link>
+    </image>
+    
+    <item>
+      <title>Triple Triad World</title>
+      <link>https://enricomeloni.github.io/project/tripletriadworld/</link>
+      <pubDate>Fri, 26 Jun 2020 19:46:47 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/tripletriadworld/</guid>
+      <description>&lt;p&gt;Triple Triad is a Collectable Card Game which made its debut in Final Fantasy 8. This is a remake in form of a webapp with vanilla javascript and html.&lt;/p&gt;
+&lt;p&gt;This webapp was developed for a university project and while the games are playable, there is no artificial intelligence that makes a game worth playing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
