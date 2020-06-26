@@ -43,6 +43,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -173,9 +176,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -227,16 +230,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Enrico Meloni">
   <meta property="og:url" content="https://enricomeloni.github.io/project/lockstep-library/">
   <meta property="og:title" content="Lockstep Library | Enrico Meloni">
-  <meta property="og:description" content="A Lockstep Network Synchronization Layer for distributed reliable simulations"><meta property="og:image" content="https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="A Lockstep Network Synchronization Layer for distributed reliable simulations"><meta property="og:image" content="https://enricomeloni.github.io/project/lockstep-library/featured.png">
+  <meta property="twitter:image" content="https://enricomeloni.github.io/project/lockstep-library/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-06-24T15:46:57&#43;02:00">
@@ -267,6 +269,10 @@
   },
   "headline": "Lockstep Library",
   
+  "image": [
+    "https://enricomeloni.github.io/project/lockstep-library/featured.png"
+  ],
+  
   "datePublished": "2020-06-24T15:46:57+02:00",
   "dateModified": "2020-06-24T15:46:57+02:00",
   
@@ -293,6 +299,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -548,18 +584,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Lockstep Library</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -604,7 +648,36 @@
 
 </div>
 
-    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
@@ -620,6 +693,33 @@
 
 
   
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/MeloniZippoProjects/LockstepLibrary" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    GitHub
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 498px;">
+  <div style="position: relative">
+    <img src="/project/lockstep-library/featured_hudad196ad72a610935122c69fb1f6c933_37697_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Lockstep Client structure</span>
+  </div>
 </div>
 
 
@@ -630,7 +730,80 @@
       <p>This library was developed as group project for Concurrent and Distributed Systems course.</p>
 <p>The idea behind this project was to implement first-hand a synchronization layer like most multiplayer games use nowadays. The simulation (game) in object is collaborative effort where multiple clients generate inputs that drive it. The synchronization layer has to guarantee that each client processes inputs in the correct order so that everyone has a consistent view of the simulation, without ever sharing its state directly.</p>
 <p>We chose to implement the most strict version of lockstep, which doesn&rsquo;t allow for the simulation to go on speculatively in case of delays, contrary to most games. We also chose the client-server structure, which should give the lowest delay in most cases. In order to make the library as generic as possible, we chose to use Java Serialization for marshalling/unmarshalling. This gives a huge overhead in terms of bandwidth, and should be reconsidered given the specific application needs.</p>
-<p>GitHub page: <a href="https://github.com/MeloniZippoProjects/LockstepLibrary">https://github.com/MeloniZippoProjects/LockstepLibrary</a></p>
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-client-structure">
+
+
+  <a data-fancybox="" href="/project/lockstep-library/featured_hudad196ad72a610935122c69fb1f6c933_37697_2000x2000_fit_lanczos_2.png" data-caption="Client Structure">
+
+
+  <img data-src="/project/lockstep-library/featured_hudad196ad72a610935122c69fb1f6c933_37697_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="811" height="561">
+</a>
+
+
+  
+  
+  <figcaption>
+    Client Structure
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-server-structure">
+
+
+  <a data-fancybox="" href="/project/lockstep-library/server_hu65cca0095768a98fecaf5ac0150b7e6f_44481_2000x2000_fit_lanczos_2.png" data-caption="Server Structure">
+
+
+  <img data-src="/project/lockstep-library/server_hu65cca0095768a98fecaf5ac0150b7e6f_44481_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1001" height="402">
+</a>
+
+
+  
+  
+  <figcaption>
+    Server Structure
+  </figcaption>
+
+
+</figure>
+
 
     </div>
 
@@ -801,7 +974,7 @@
       
       <li><a href="/project/abe-photo-sharing/">ABE Photo Sharing</a></li>
       
-      <li><a href="/project/chkb/">CHKB</a></li>
+      <li><a href="/project/tripletriadworld/">Triple Triad World</a></li>
       
     </ul>
   </div>

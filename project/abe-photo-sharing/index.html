@@ -43,6 +43,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -173,9 +176,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -227,16 +230,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Enrico Meloni">
   <meta property="og:url" content="https://enricomeloni.github.io/project/abe-photo-sharing/">
   <meta property="og:title" content="ABE Photo Sharing | Enrico Meloni">
-  <meta property="og:description" content="Secure Photo Sharing Service powered by KPABE"><meta property="og:image" content="https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Secure Photo Sharing Service powered by KPABE"><meta property="og:image" content="https://enricomeloni.github.io/project/abe-photo-sharing/featured.jpg">
+  <meta property="twitter:image" content="https://enricomeloni.github.io/project/abe-photo-sharing/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-06-24T15:46:48&#43;02:00">
@@ -267,6 +269,10 @@
   },
   "headline": "ABE Photo Sharing",
   
+  "image": [
+    "https://enricomeloni.github.io/project/abe-photo-sharing/featured.jpg"
+  ],
+  
   "datePublished": "2020-06-24T15:46:48+02:00",
   "dateModified": "2020-06-24T15:46:48+02:00",
   
@@ -293,6 +299,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -548,18 +584,24 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
   <h1>ABE Photo Sharing</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -604,7 +646,36 @@
 
 </div>
 
-    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
@@ -620,6 +691,33 @@
 
 
   
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/MeloniZippoProjects/ABEPhotoSharing" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    GitHub
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 517px; max-height: 360px;">
+  <div style="position: relative">
+    <img src="/project/abe-photo-sharing/featured.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">KP-ABE Schema (*)</span>
+  </div>
 </div>
 
 
@@ -628,7 +726,8 @@
 
     <div class="article-style">
       <p>The application is a secure photo sharing service which uses KPABE encryption to enforce access to pictures exclusively to allowed users. The application is written in C# for the Windows platform and depends on a KPABE command line implementation</p>
-<p>GitHub: <a href="https://github.com/MeloniZippoProjects/ABEPhotoSharing">https://github.com/MeloniZippoProjects/ABEPhotoSharing</a></p>
+<p>(*): The featured image is extracted from 
+<a href="https://www.researchgate.net/publication/282500797_A_Work_in_Progress_Context_based_Encryption_Scheme_for_Internet_of_Things" target="_blank" rel="noopener">A Work in Progress: Context based Encryption Scheme for Internet of Things</a></p>
 
     </div>
 
@@ -799,7 +898,7 @@
       
       <li><a href="/project/daeny/">Object Detection with V-DAENY</a></li>
       
-      <li><a href="/project/chkb/">CHKB</a></li>
+      <li><a href="/project/lve/">SAILab Virtual Environment</a></li>
       
     </ul>
   </div>

@@ -27,7 +27,17 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Neural Networks are known to be an effective technique in the field of Artificial Intelligence and in particular in the field of Computer Vision. Their main advantage is that they can learn from examples, without the need to program into them any previous expertise or knowledge.
+
+Recently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.
+
+To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution.
+
+In this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is  V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.
+
+The second contribution are two different datasets composed of real images, that can be used for training and testing. One of them contains images with copyright limits, while the second contains only copyright free images. Both datasets contain pictures taken in various contexts, such as airports, building sites and military sites.
+
+The third contribution is the evaluation of the performances achieved by learning with virtual data. We trained a network starting from a pre-trained YOLOv3 detector and applying a phase of Transfer Learning with virtual data and a phase of Domain Adaptation with a small amount of the manually annotated real dataset. Then, we tested the network on the other part of the real dataset. The network trained with this approach achieves promising performances. After being trained with only virtual data, the network achieves excellent precision on virtual data and good precision on real data. After applying Domain Adaptation, the network achieves high precision on both real and virtual data. As comparison, applying only Domain Adaptation to base YOLOv3 achieves a precision similar to that obtained when training with only virtual data. These results suggest that computer generated training samples can replace most of the real dataset and still achieve very good results. ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://enricomeloni.github.io/publication/meloni-using-2019/">
@@ -42,6 +52,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -173,9 +186,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -227,16 +240,25 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Enrico Meloni">
   <meta property="og:url" content="https://enricomeloni.github.io/publication/meloni-using-2019/">
   <meta property="og:title" content="Using virtual worlds to train an object detector for personal protection equipment | Enrico Meloni">
-  <meta property="og:description" content=""><meta property="og:image" content="https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Neural Networks are known to be an effective technique in the field of Artificial Intelligence and in particular in the field of Computer Vision. Their main advantage is that they can learn from examples, without the need to program into them any previous expertise or knowledge.
+
+Recently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.
+
+To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution.
+
+In this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is  V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.
+
+The second contribution are two different datasets composed of real images, that can be used for training and testing. One of them contains images with copyright limits, while the second contains only copyright free images. Both datasets contain pictures taken in various contexts, such as airports, building sites and military sites.
+
+The third contribution is the evaluation of the performances achieved by learning with virtual data. We trained a network starting from a pre-trained YOLOv3 detector and applying a phase of Transfer Learning with virtual data and a phase of Domain Adaptation with a small amount of the manually annotated real dataset. Then, we tested the network on the other part of the real dataset. The network trained with this approach achieves promising performances. After being trained with only virtual data, the network achieves excellent precision on virtual data and good precision on real data. After applying Domain Adaptation, the network achieves high precision on both real and virtual data. As comparison, applying only Domain Adaptation to base YOLOv3 achieves a precision similar to that obtained when training with only virtual data. These results suggest that computer generated training samples can replace most of the real dataset and still achieve very good results. "><meta property="og:image" content="https://enricomeloni.github.io/publication/meloni-using-2019/featured.png">
+  <meta property="twitter:image" content="https://enricomeloni.github.io/publication/meloni-using-2019/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-06-24T13:14:33&#43;00:00">
@@ -267,6 +289,10 @@
   },
   "headline": "Using virtual worlds to train an object detector for personal protection equipment",
   
+  "image": [
+    "https://enricomeloni.github.io/publication/meloni-using-2019/featured.png"
+  ],
+  
   "datePublished": "2020-06-24T13:14:33Z",
   "dateModified": "2019-01-01T00:00:00Z",
   
@@ -283,7 +309,7 @@
       "url": "https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Neural Networks are known to be an effective technique in the field of Artificial Intelligence and in particular in the field of Computer Vision. Their main advantage is that they can learn from examples, without the need to program into them any previous expertise or knowledge.\n\nRecently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.\n\nTo overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution.\n\nIn this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is  V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.\n\nThe second contribution are two different datasets composed of real images, that can be used for training and testing. One of them contains images with copyright limits, while the second contains only copyright free images. Both datasets contain pictures taken in various contexts, such as airports, building sites and military sites.\n\nThe third contribution is the evaluation of the performances achieved by learning with virtual data. We trained a network starting from a pre-trained YOLOv3 detector and applying a phase of Transfer Learning with virtual data and a phase of Domain Adaptation with a small amount of the manually annotated real dataset. Then, we tested the network on the other part of the real dataset. The network trained with this approach achieves promising performances. After being trained with only virtual data, the network achieves excellent precision on virtual data and good precision on real data. After applying Domain Adaptation, the network achieves high precision on both real and virtual data. As comparison, applying only Domain Adaptation to base YOLOv3 achieves a precision similar to that obtained when training with only virtual data. These results suggest that computer generated training samples can replace most of the real dataset and still achieve very good results. "
 }
 </script>
 
@@ -293,6 +319,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -548,18 +604,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Using virtual worlds to train an object detector for personal protection equipment</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -600,7 +664,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -651,17 +715,49 @@
 
 
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://etd.adm.unipi.it/t/etd-05302019-162625/" target="_blank" rel="noopener">
+    
+    ETD Unipi
+  </a>
+
 
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 565px;">
+  <div style="position: relative">
+    <img src="/publication/meloni-using-2019/featured_huf84fbca19c9cf2dfcef222541d9c39e5_1488820_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Bounding Boxes generated by V-DAENY</span>
+  </div>
 </div>
 
 
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>Neural Networks are known to be an effective technique in the field of Artificial Intelligence and in particular in the field of Computer Vision. Their main advantage is that they can learn from examples, without the need to program into them any previous expertise or knowledge.</p>
+<p>Recently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.</p>
+<p>To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution.</p>
+<p>In this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is  V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.</p>
+<p>The second contribution are two different datasets composed of real images, that can be used for training and testing. One of them contains images with copyright limits, while the second contains only copyright free images. Both datasets contain pictures taken in various contexts, such as airports, building sites and military sites.</p>
+<p>The third contribution is the evaluation of the performances achieved by learning with virtual data. We trained a network starting from a pre-trained YOLOv3 detector and applying a phase of Transfer Learning with virtual data and a phase of Domain Adaptation with a small amount of the manually annotated real dataset. Then, we tested the network on the other part of the real dataset. The network trained with this approach achieves promising performances. After being trained with only virtual data, the network achieves excellent precision on virtual data and good precision on real data. After applying Domain Adaptation, the network achieves high precision on both real and virtual data. As comparison, applying only Domain Adaptation to base YOLOv3 achieves a precision similar to that obtained when training with only virtual data. These results suggest that computer generated training samples can replace most of the real dataset and still achieve very good results.</p>
+</p>
     
 
     
@@ -673,8 +769,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#7">
+              Thesis
             </a>
             
           </div>
@@ -685,6 +781,18 @@
     <div class="d-md-none space-below"></div>
     
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">ETD (archivio digitale delle tesi discusse presso l’Università di Pisa)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
