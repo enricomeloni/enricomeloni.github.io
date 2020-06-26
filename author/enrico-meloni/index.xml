@@ -5,12 +5,224 @@
     <link>https://enricomeloni.github.io/author/enrico-meloni/</link>
       <atom:link href="https://enricomeloni.github.io/author/enrico-meloni/index.xml" rel="self" type="application/rss+xml" />
     <description>Enrico Meloni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jun 2020 19:46:47 +0200</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
       <title>Enrico Meloni</title>
       <link>https://enricomeloni.github.io/author/enrico-meloni/</link>
     </image>
+    
+    <item>
+      <title>Triple Triad World</title>
+      <link>https://enricomeloni.github.io/project/tripletriadworld/</link>
+      <pubDate>Fri, 26 Jun 2020 19:46:47 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/tripletriadworld/</guid>
+      <description>&lt;p&gt;Triple Triad is a Collectable Card Game which made its debut in Final Fantasy 8. This is a remake in form of a webapp with vanilla javascript and html.&lt;/p&gt;
+&lt;p&gt;This webapp was developed for a university project and while the games are playable, there is no artificial intelligence that makes a game worth playing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Detection with V-DAENY</title>
+      <link>https://enricomeloni.github.io/project/daeny/</link>
+      <pubDate>Wed, 24 Jun 2020 15:48:01 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/daeny/</guid>
+      <description>&lt;p&gt;Recently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.
+To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution. 
+In this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Recognition App</title>
+      <link>https://enricomeloni.github.io/project/facerecognition/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:45 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/facerecognition/</guid>
+      <description>&lt;p&gt;This Android app performs face recognition and identification through the smartphone&amp;rsquo;s camera. The app uses an internal database containing the known identities, including sample photos. The app allows the user to check the database content, delete or add new identities.&lt;/p&gt;
+&lt;p&gt;Face Detection is powered by Haar Cascade Classifier. Face Feature are extracted by VGG2 trained on VGGFace2.&lt;/p&gt;
+&lt;p&gt;Classification is performed by weighted kNN on the extracted face features.&lt;/p&gt;
+&lt;p&gt;Data processing is powered by OpenCV for Java.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exp Launcher</title>
+      <link>https://enricomeloni.github.io/project/explauncher/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:38 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/explauncher/</guid>
+      <description>&lt;h2 id=&#34;warning-this-is-an-ongoing-project&#34;&gt;WARNING: This is an ongoing project&lt;/h2&gt;
+&lt;p&gt;Experiment Launcher (temporary name) is a scientific utility aimed at storing the experimental results out-putted by a third party software. It allows the user to specify an experiment with a set of parameters andan executable file, and then proceeds to launch the executable and collecting the output. The output is then provided to the user in a human-friendly interface, recording important information such as the date and timewhen the experiment was launched, the parameters, and also the executable version (if version control is used).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SAILab Virtual Environment</title>
+      <link>https://enricomeloni.github.io/project/lve/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:32 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/lve/</guid>
+      <description>&lt;p&gt;SAILab Virtual Environment is a part of the Learning In Visual Environments project at SAILab (&lt;a href=&#34;http://sailab.diism.unisi.it/lve/)&#34;&gt;http://sailab.diism.unisi.it/lve/)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The virtual environment is developed with Unity3D and exposes useful information for training a Visual Agents, including full pixel-wise supervisions, optical flow, and depth for each produced frame. Frames are produced at real-time speed, and are accessible through a Python API designed to easily interface with the most widely adopted Machine Learning frameworks.&lt;/p&gt;
+&lt;p&gt;The software and source code will be soon available.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning SIR/SIDARTHE</title>
+      <link>https://enricomeloni.github.io/project/covid-tools/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:27 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/covid-tools/</guid>
+      <description>&lt;p&gt;The COVID-19 outbreak has stimulated the interest in the proposal of novel epidemiological models to predict the course of the epidemic so as to help planning effective control strategies. In particular, in order to properly interpret the available data, it has become clear that one must go beyond most classic epidemiological models and consider models that, like the recently proposed SIDARTHE, offer a richer description of the stages of infection. The problem of learning the parameters of these models is of crucial importance especially when assuming that they are time-variant, which further enriches their effectiveness. This project focuses on developing a general approach for learning time-variant parameters of dynamic compartmental models from epidemic data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WanRaptor</title>
+      <link>https://enricomeloni.github.io/project/wanraptor/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:08 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/wanraptor/</guid>
+      <description>&lt;p&gt;WanRaptor is my first job as a Software Engineer and Project Manager with a big enterprise.&lt;/p&gt;
+&lt;p&gt;The WanRaptor is an embedded system used to validate an application in a lab environment by emulating bandwidth limitations, latency, packets loss and jitter commonly found in WANs.&lt;/p&gt;
+&lt;p&gt;The project involved the development from the ground up of the full-stack Graphical User Interface, including management of hardware resources, installation, secure licensing and user interaction.&lt;/p&gt;
+&lt;p&gt;The WanRaptor is widely used in many laboratories all over United States and further.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CHKB</title>
+      <link>https://enricomeloni.github.io/project/chkb/</link>
+      <pubDate>Wed, 24 Jun 2020 15:47:05 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/chkb/</guid>
+      <description>&lt;p&gt;Validation, correction and extension of CHKB, an encyclopedic web app which main objective is to bring together all informations about computers and more generally about information science history.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lockstep Library</title>
+      <link>https://enricomeloni.github.io/project/lockstep-library/</link>
+      <pubDate>Wed, 24 Jun 2020 15:46:57 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/lockstep-library/</guid>
+      <description>&lt;p&gt;This library was developed as group project for Concurrent and Distributed Systems course.&lt;/p&gt;
+&lt;p&gt;The idea behind this project was to implement first-hand a synchronization layer like most multiplayer games use nowadays. The simulation (game) in object is collaborative effort where multiple clients generate inputs that drive it. The synchronization layer has to guarantee that each client processes inputs in the correct order so that everyone has a consistent view of the simulation, without ever sharing its state directly.&lt;/p&gt;
+&lt;p&gt;We chose to implement the most strict version of lockstep, which doesn&amp;rsquo;t allow for the simulation to go on speculatively in case of delays, contrary to most games. We also chose the client-server structure, which should give the lowest delay in most cases. In order to make the library as generic as possible, we chose to use Java Serialization for marshalling/unmarshalling. This gives a huge overhead in terms of bandwidth, and should be reconsidered given the specific application needs.&lt;/p&gt;
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-client-structure&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://enricomeloni.github.io/project/lockstep-library/featured_hudad196ad72a610935122c69fb1f6c933_37697_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Client Structure&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://enricomeloni.github.io/project/lockstep-library/featured_hudad196ad72a610935122c69fb1f6c933_37697_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;811&#34; height=&#34;561&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Client Structure
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-server-structure&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://enricomeloni.github.io/project/lockstep-library/server_hu65cca0095768a98fecaf5ac0150b7e6f_44481_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Server Structure&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://enricomeloni.github.io/project/lockstep-library/server_hu65cca0095768a98fecaf5ac0150b7e6f_44481_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1001&#34; height=&#34;402&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Server Structure
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>ABE Photo Sharing</title>
+      <link>https://enricomeloni.github.io/project/abe-photo-sharing/</link>
+      <pubDate>Wed, 24 Jun 2020 15:46:48 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/abe-photo-sharing/</guid>
+      <description>&lt;p&gt;The application is a secure photo sharing service which uses KPABE encryption to enforce access to pictures exclusively to allowed users. The application is written in C# for the Windows platform and depends on a KPABE command line implementation&lt;/p&gt;
+&lt;p&gt;(*): The featured image is extracted from 
+&lt;a href=&#34;https://www.researchgate.net/publication/282500797_A_Work_in_Progress_Context_based_Encryption_Scheme_for_Internet_of_Things&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Work in Progress: Context based Encryption Scheme for Internet of Things&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning the Dynamic SIR Model: An Optimal Control Approach</title>
+      <link>https://enricomeloni.github.io/talk/dynamic_sir/</link>
+      <pubDate>Wed, 13 May 2020 11:00:04 +0100</pubDate>
+      <guid>https://enricomeloni.github.io/talk/dynamic_sir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning in Virtual Environments</title>
+      <link>https://enricomeloni.github.io/talk/lve/</link>
+      <pubDate>Wed, 27 Nov 2019 11:00:00 +0100</pubDate>
+      <guid>https://enricomeloni.github.io/talk/lve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning safety equipment detection using virtual worlds</title>
+      <link>https://enricomeloni.github.io/publication/di-benedetto-learning-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://enricomeloni.github.io/publication/di-benedetto-learning-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using virtual worlds to train an object detector for personal protection equipment</title>
+      <link>https://enricomeloni.github.io/publication/meloni-using-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://enricomeloni.github.io/publication/meloni-using-2019/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
