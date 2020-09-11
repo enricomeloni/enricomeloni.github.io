@@ -27,11 +27,10 @@
   
     
   
-  <meta name="description" content="Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.
-In this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment.">
+  <meta name="description" content="Recently, researchers in Machine Learning algorithms, Computer Vision scientists, engineers, and others, showed a growing interest in 3D simulators as a mean to artificially create experimental settings that are remarkably close to those in the real world. However, most of the existing platforms to interface algorithms with 3D environments are often designed to setup navigation-related experiments, to study physical interactions, or to handle ad-hoc cases that are not thought to be customized, sometimes lacking a strong photorealistic appearance and an easy-to-use software interface. In this talk, we will present a platform developed in our lab, SAILenv, that is specifically designed to be simple and customizable, and that allows researchers to experiment visual recognition in virtual 3D scenes. A few lines of code are needed to interface every algorithm with the virtual world, and non-3D-graphics experts can easily customize the 3D environment itself, exploiting a collection of photorealistic objects. Our framework yields pixel-level semantic and instance labeling, depth, and, to the best of our knowledge, it is the only one that provides motion-related information directly inherited from the 3D engine. The client-server communication operates at a low level, avoiding the overhead of HTTP-based data exchanges. We perform experiments using a state-of-the-art object detector trained on real-world images, showing that it is able to recognize the photorealistic 3D objects of our environment. The computational burden of the optical flow compares favorably with the estimation performed using modern GPU-based convolutional networks or more classic implementations.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://enricomeloni.github.io/talk/lve/">
+  <link rel="alternate" hreflang="en-us" href="https://enricomeloni.github.io/talk/sailenv/">
 
   
 
@@ -229,7 +228,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   <link rel="icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://enricomeloni.github.io/talk/lve/">
+  <link rel="canonical" href="https://enricomeloni.github.io/talk/sailenv/">
 
   
   
@@ -247,16 +246,15 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   <meta property="twitter:creator" content="@enricomeloni_ai">
   
   <meta property="og:site_name" content="Enrico Meloni">
-  <meta property="og:url" content="https://enricomeloni.github.io/talk/lve/">
-  <meta property="og:title" content="Learning in Virtual Environments | Enrico Meloni">
-  <meta property="og:description" content="Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.
-In this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment."><meta property="og:image" content="https://enricomeloni.github.io/talk/lve/featured.png">
-  <meta property="twitter:image" content="https://enricomeloni.github.io/talk/lve/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://enricomeloni.github.io/talk/sailenv/">
+  <meta property="og:title" content="SAILenv: Learning in Virtual VisualEnvironments Made Simple | Enrico Meloni">
+  <meta property="og:description" content="Recently, researchers in Machine Learning algorithms, Computer Vision scientists, engineers, and others, showed a growing interest in 3D simulators as a mean to artificially create experimental settings that are remarkably close to those in the real world. However, most of the existing platforms to interface algorithms with 3D environments are often designed to setup navigation-related experiments, to study physical interactions, or to handle ad-hoc cases that are not thought to be customized, sometimes lacking a strong photorealistic appearance and an easy-to-use software interface. In this talk, we will present a platform developed in our lab, SAILenv, that is specifically designed to be simple and customizable, and that allows researchers to experiment visual recognition in virtual 3D scenes. A few lines of code are needed to interface every algorithm with the virtual world, and non-3D-graphics experts can easily customize the 3D environment itself, exploiting a collection of photorealistic objects. Our framework yields pixel-level semantic and instance labeling, depth, and, to the best of our knowledge, it is the only one that provides motion-related information directly inherited from the 3D engine. The client-server communication operates at a low level, avoiding the overhead of HTTP-based data exchanges. We perform experiments using a state-of-the-art object detector trained on real-world images, showing that it is able to recognize the photorealistic 3D objects of our environment. The computational burden of the optical flow compares favorably with the estimation performed using modern GPU-based convolutional networks or more classic implementations."><meta property="og:image" content="https://enricomeloni.github.io/talk/sailenv/featured.png">
+  <meta property="twitter:image" content="https://enricomeloni.github.io/talk/sailenv/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-06-24T15:21:42&#43;02:00">
+      <meta property="article:published_time" content="2020-09-11T19:37:17&#43;02:00">
     
-    <meta property="article:modified_time" content="2019-11-27T11:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-09-16T11:00:00&#43;02:00">
   
 
   
@@ -275,9 +273,9 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://enricomeloni.github.io/talk/lve/"
+    "@id": "https://enricomeloni.github.io/talk/sailenv/"
   },
-  "name": "Learning in Virtual Environments",
+  "name": "SAILenv: Learning in Virtual VisualEnvironments Made Simple",
   
   "location": {
     "@type": "Place",
@@ -295,10 +293,12 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   
   
   "image": [
-    "https://enricomeloni.github.io/talk/lve/featured.png"
+    "https://enricomeloni.github.io/talk/sailenv/featured.png"
   ],
   
-  "startDate": "2019-11-27T11:00:00+01:00",
+  "startDate": "2020-09-16T11:00:00+02:00",
+  
+  "endDate": "2020-09-16T12:00:00+02:00",
   
   
   "performer": {
@@ -306,7 +306,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
     "name": "Enrico Meloni"
   },
   
-  "description": "Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.\nIn this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment."
+  "description": "Recently, researchers in Machine Learning algorithms, Computer Vision scientists, engineers, and others, showed a growing interest in 3D simulators as a mean to artificially create experimental settings that are remarkably close to those in the real world. However, most of the existing platforms to interface algorithms with 3D environments are often designed to setup navigation-related experiments, to study physical interactions, or to handle ad-hoc cases that are not thought to be customized, sometimes lacking a strong photorealistic appearance and an easy-to-use software interface. In this talk, we will present a platform developed in our lab, SAILenv, that is specifically designed to be simple and customizable, and that allows researchers to experiment visual recognition in virtual 3D scenes. A few lines of code are needed to interface every algorithm with the virtual world, and non-3D-graphics experts can easily customize the 3D environment itself, exploiting a collection of photorealistic objects. Our framework yields pixel-level semantic and instance labeling, depth, and, to the best of our knowledge, it is the only one that provides motion-related information directly inherited from the 3D engine. The client-server communication operates at a low level, avoiding the overhead of HTTP-based data exchanges. We perform experiments using a state-of-the-art object detector trained on real-world images, showing that it is able to recognize the photorealistic 3D objects of our environment. The computational burden of the optical flow compares favorably with the estimation performed using modern GPU-based convolutional networks or more classic implementations."
 }
 </script>
 
@@ -352,7 +352,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 
-  <title>Learning in Virtual Environments | Enrico Meloni</title>
+  <title>SAILenv: Learning in Virtual VisualEnvironments Made Simple | Enrico Meloni</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -661,12 +661,10 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1>Learning in Virtual Environments</h1>
+  <h1>SAILenv: Learning in Virtual VisualEnvironments Made Simple</h1>
 
   
 
@@ -717,69 +715,14 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/lve/">
-    Project
-  </a>
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/lve/LVE_slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/lve/demo.mp4" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 375px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 614px; max-height: 460px;">
   <div style="position: relative">
-    <img src="/talk/lve/featured_hu2f2743639d43f537285d80de0e2a5a42_824773_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">Prototype of SAILab Virtual Environment</span>
+    <img src="/talk/sailenv/featured.png" alt="" class="featured-image">
+    <span class="article-header-caption">Sample scene available in SAILenv</span>
   </div>
 </div>
 
@@ -789,8 +732,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.
-In this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment.</p>
+      <p class="pub-abstract">Recently, researchers in Machine Learning algorithms, Computer Vision scientists, engineers, and others, showed a growing interest in 3D simulators as a mean to artificially create experimental settings that are remarkably close to those in the real world. However, most of the existing platforms to interface algorithms with 3D environments are often designed to setup navigation-related experiments, to study physical interactions, or to handle ad-hoc cases that are not thought to be customized, sometimes lacking a strong photorealistic appearance and an easy-to-use software interface. In this talk, we will present a platform developed in our lab, SAILenv, that is specifically designed to be simple and customizable, and that allows researchers to experiment visual recognition in virtual 3D scenes. A few lines of code are needed to interface every algorithm with the virtual world, and non-3D-graphics experts can easily customize the 3D environment itself, exploiting a collection of photorealistic objects. Our framework yields pixel-level semantic and instance labeling, depth, and, to the best of our knowledge, it is the only one that provides motion-related information directly inherited from the 3D engine. The client-server communication operates at a low level, avoiding the overhead of HTTP-based data exchanges. We perform experiments using a state-of-the-art object detector trained on real-world images, showing that it is able to recognize the photorealistic 3D objects of our environment. The computational burden of the optical flow compares favorably with the estimation performed using modern GPU-based convolutional networks or more classic implementations.</p>
     
 
     <div class="row">
@@ -799,7 +741,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Nov 27, 2019 11:00 AM
+            Sep 16, 2020 11:00 AM &mdash; 12:00 PM
           </div>
         </div>
       </div>
@@ -814,9 +756,9 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="http://sailab.diism.unisi.it/nov-27th-2019-labmeeting-learning-in-virtual-environments/" target="_blank" rel="noopener">
+            
             SAILab Lab Meeting
-            </a>
+            
           </div>
         </div>
       </div>
@@ -881,7 +823,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://enricomeloni.github.io/talk/lve/&amp;text=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://enricomeloni.github.io/talk/sailenv/&amp;text=SAILenv:%20Learning%20in%20Virtual%20VisualEnvironments%20Made%20Simple" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -894,7 +836,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://enricomeloni.github.io/talk/lve/&amp;t=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://enricomeloni.github.io/talk/sailenv/&amp;t=SAILenv:%20Learning%20in%20Virtual%20VisualEnvironments%20Made%20Simple" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -907,7 +849,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="mailto:?subject=Learning%20in%20Virtual%20Environments&amp;body=https://enricomeloni.github.io/talk/lve/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=SAILenv:%20Learning%20in%20Virtual%20VisualEnvironments%20Made%20Simple&amp;body=https://enricomeloni.github.io/talk/sailenv/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -920,7 +862,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://enricomeloni.github.io/talk/lve/&amp;title=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://enricomeloni.github.io/talk/sailenv/&amp;title=SAILenv:%20Learning%20in%20Virtual%20VisualEnvironments%20Made%20Simple" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -933,7 +875,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="whatsapp://send?text=Learning%20in%20Virtual%20Environments%20https://enricomeloni.github.io/talk/lve/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=SAILenv:%20Learning%20in%20Virtual%20VisualEnvironments%20Made%20Simple%20https://enricomeloni.github.io/talk/sailenv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -946,7 +888,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://enricomeloni.github.io/talk/lve/&amp;title=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://enricomeloni.github.io/talk/sailenv/&amp;title=SAILenv:%20Learning%20in%20Virtual%20VisualEnvironments%20Made%20Simple" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -995,7 +937,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/talk/sailenv/">SAILenv: Learning in Virtual VisualEnvironments Made Simple</a></li>
+      <li><a href="/talk/lve/">Learning in Virtual Environments</a></li>
       
       <li><a href="/project/lve/">SAILenv</a></li>
       
