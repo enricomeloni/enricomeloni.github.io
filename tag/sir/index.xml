@@ -5,12 +5,20 @@
     <link>https://enricomeloni.github.io/tag/sir/</link>
       <atom:link href="https://enricomeloni.github.io/tag/sir/index.xml" rel="self" type="application/rss+xml" />
     <description>sir</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:27 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Sep 2020 18:30:00 +0200</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
       <title>sir</title>
       <link>https://enricomeloni.github.io/tag/sir/</link>
     </image>
+    
+    <item>
+      <title>Machine Learning for Epidemiological Models</title>
+      <link>https://enricomeloni.github.io/talk/iaml_covid/</link>
+      <pubDate>Thu, 24 Sep 2020 18:30:00 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/talk/iaml_covid/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning SIR/SIDARTHE</title>
