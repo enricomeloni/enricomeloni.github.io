@@ -5,12 +5,25 @@
     <link>https://enricomeloni.github.io/author/enrico-meloni/</link>
       <atom:link href="https://enricomeloni.github.io/author/enrico-meloni/index.xml" rel="self" type="application/rss+xml" />
     <description>Enrico Meloni</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 24 Sep 2020 18:30:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
       <title>Enrico Meloni</title>
       <link>https://enricomeloni.github.io/author/enrico-meloni/</link>
     </image>
+    
+  </channel>
+</rss>
+ico-meloni/</link>
+    </image>
+    
+    <item>
+      <title>An Optimal Control Approach to Learning in SIDARTHE Epidemic model</title>
+      <link>https://enricomeloni.github.io/publication/zugarini-meloni-betti-panizza-corneli-gori-2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://enricomeloni.github.io/publication/zugarini-meloni-betti-panizza-corneli-gori-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine Learning for Epidemiological Models</title>
