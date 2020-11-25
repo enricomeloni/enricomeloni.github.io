@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://enricomeloni.github.io/authors/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/categories/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/tag/dynamic-systems/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/author/enrico-meloni/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/post/learning_sidarthe_poster/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/category/machine-learning/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/tag/machine-learning/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/post/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/tag/pytorch/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/tag/sidarthe/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/tag/sir/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enricomeloni.github.io/tags/</loc>
+    <lastmod>2020-11-25T12:59:43+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://enricomeloni.github.io/publication-type/3/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -24,21 +89,6 @@
   
   <url>
     <loc>https://enricomeloni.github.io/author/andrea-zugarini/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/authors/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/author/enrico-meloni/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,21 +148,6 @@
   </url>
   
   <url>
-    <loc>https://enricomeloni.github.io/tag/sidarthe/</loc>
-    <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/tag/sir/</loc>
-    <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/tags/</loc>
-    <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://enricomeloni.github.io/tag/computer-vision/</loc>
     <lastmod>2020-09-16T11:00:00+02:00</lastmod>
   </url>
@@ -135,11 +170,6 @@
   <url>
     <loc>https://enricomeloni.github.io/tag/visual-agents/</loc>
     <lastmod>2020-09-16T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/categories/</loc>
-    <lastmod>2020-06-26T19:46:47+02:00</lastmod>
   </url>
   
   <url>
@@ -194,16 +224,6 @@
   
   <url>
     <loc>https://enricomeloni.github.io/tag/gta5/</loc>
-    <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/category/machine-learning/</loc>
-    <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/tag/machine-learning/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
   </url>
   
@@ -313,17 +333,7 @@
   </url>
   
   <url>
-    <loc>https://enricomeloni.github.io/tag/dynamic-systems/</loc>
-    <lastmod>2020-06-24T15:47:27+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://enricomeloni.github.io/project/covid-tools/</loc>
-    <lastmod>2020-06-24T15:47:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/tag/pytorch/</loc>
     <lastmod>2020-06-24T15:47:27+02:00</lastmod>
   </url>
   
@@ -509,10 +519,6 @@
   
   <url>
     <loc>https://enricomeloni.github.io/author/enrico-meloni/</loc>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/post/</loc>
   </url>
   
 </urlset>

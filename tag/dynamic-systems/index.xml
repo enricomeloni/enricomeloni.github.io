@@ -5,12 +5,24 @@
     <link>https://enricomeloni.github.io/tag/dynamic-systems/</link>
       <atom:link href="https://enricomeloni.github.io/tag/dynamic-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>dynamic systems</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:27 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 12:59:43 +0100</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
       <title>dynamic systems</title>
       <link>https://enricomeloni.github.io/tag/dynamic-systems/</link>
     </image>
+    
+    <item>
+      <title>Learning Sidarthe at SOPHI.A Summit</title>
+      <link>https://enricomeloni.github.io/post/learning_sidarthe_poster/</link>
+      <pubDate>Wed, 25 Nov 2020 12:59:43 +0100</pubDate>
+      <guid>https://enricomeloni.github.io/post/learning_sidarthe_poster/</guid>
+      <description>&lt;object data=&#34;poster.pdf&#34; type=&#34;application/pdf&#34; width=&#34;750px&#34; height=&#34;750px&#34;&gt;
+    &lt;embed src=&#34;poster.pdf&#34; type=&#34;application/pdf&#34;&gt;
+        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;poster.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+    &lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
     
     <item>
       <title>Learning SIR/SIDARTHE</title>
