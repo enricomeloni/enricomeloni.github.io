@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>virtual environments | Enrico Meloni</title>
+    <title>Virtual Environments | Enrico Meloni</title>
     <link>https://enricomeloni.github.io/category/virtual-environments/</link>
       <atom:link href="https://enricomeloni.github.io/category/virtual-environments/index.xml" rel="self" type="application/rss+xml" />
-    <description>virtual environments</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:32 +0200</lastBuildDate>
+    <description>Virtual Environments</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 15:36:59 +0100</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
-      <title>virtual environments</title>
+      <title>Virtual Environments</title>
       <link>https://enricomeloni.github.io/category/virtual-environments/</link>
     </image>
     
     <item>
-      <title>SAILab Virtual Environment</title>
+      <title>SAILenv at ICPR2020</title>
+      <link>https://enricomeloni.github.io/post/sailenv_poster/</link>
+      <pubDate>Fri, 15 Jan 2021 15:36:59 +0100</pubDate>
+      <guid>https://enricomeloni.github.io/post/sailenv_poster/</guid>
+      <description>&lt;h1 id=&#34;poster-pdf-file&#34;&gt;Poster pdf file&lt;/h1&gt;
+&lt;object data=&#34;poster.pdf&#34; type=&#34;application/pdf&#34; width=&#34;750px&#34; height=&#34;750px&#34;&gt;
+    &lt;embed src=&#34;poster.pdf&#34; type=&#34;application/pdf&#34;&gt;
+        &lt;p&gt;This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;poster.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+    &lt;/embed&gt;
+&lt;/object&gt;
+&lt;h1 id=&#34;slides-with-audio-presentation&#34;&gt;Slides with audio presentation&lt;/h1&gt;
+&lt;video width=&#34;750&#34; height=&#34;750&#34; controls=&#34;controls&#34;&gt;
+  &lt;source src=&#34;presentation.mp4&#34; type=&#34;video/mp4&#34; /&gt;
+&lt;object data=&#34;presentation.mp4&#34; width=&#34;750&#34; height=&#34;750&#34;&gt;
+Your browser does not support video
+&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/video&gt; 
+</description>
+    </item>
+    
+    <item>
+      <title>SAILenv</title>
       <link>https://enricomeloni.github.io/project/lve/</link>
       <pubDate>Wed, 24 Jun 2020 15:47:32 +0200</pubDate>
       <guid>https://enricomeloni.github.io/project/lve/</guid>
-      <description>&lt;p&gt;SAILab Virtual Environment is a part of the Learning In Visual Environments project at SAILab (&lt;a href=&#34;http://sailab.diism.unisi.it/lve/)&#34;&gt;http://sailab.diism.unisi.it/lve/)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The virtual environment is developed with Unity3D and exposes useful information for training a Visual Agents, including full pixel-wise supervisions, optical flow, and depth for each produced frame. Frames are produced at real-time speed, and are accessible through a Python API designed to easily interface with the most widely adopted Machine Learning frameworks.&lt;/p&gt;
-&lt;p&gt;The software and source code will be soon available.&lt;/p&gt;
+      <description>&lt;p&gt;SAILenv is a Virtual Environment powered by Unity3D. It includes 3 pre-built scenes with full pixel-wise annotations. SAILenv is capable of generating frames at real-time speed, complete with pixel-wise annotations, optical flow and depth.&lt;/p&gt;
+&lt;p&gt;SAILenv also comes with a Python API, designed to easily integrate with the most common learning frameworks available.&lt;/p&gt;
+&lt;p&gt;SAILenv is a running project at 
+&lt;a href=&#34;http://sailab.diism.unisi.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAILab&lt;/a&gt;. More information is available at the 
+&lt;a href=&#34;http://sailab.diism.unisi.it/sailenv/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;project page&lt;/a&gt;. Source code and executables are also available there.&lt;/p&gt;
 </description>
     </item>
     
