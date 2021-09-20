@@ -27,11 +27,10 @@
   
     
   
-  <meta name="description" content="Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.
-In this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment.">
+  <meta name="description" content="In the last few years, the scientific community showed a remarkable and increasing interest towards 3D Virtual Environments, training and testing Machine Learning-based models in realistic virtual worlds. On one hand, these environments could also become a mean to study the weaknesses of Machine Learning algorithms, or to simulate training settings that allow Machine Learning models to gain robustness to 3D adversarial attacks. On the other hand, their growing popularity might also attract those that aim at creating adversarial conditions to invalidate the benchmarking process, especially in the case of public environments that allow the contribution from a large community of people. Most of the existing Adversarial Machine Learning approaches are focused on static images, and little work has been done in studying how to deal with 3D environments and how a 3D object should be altered to fool a classifier that observes it. In this paper, we study how to craft adversarial 3D objects by altering their textures, using a tool chain composed of easily accessible elements. We show that it is possible, and indeed simple, to create adversarial objects using off-the-shelf limited surrogate renderers that can compute gradients with respect to the parameters of the rendering process, and, to a certain extent, to transfer the attacks to more advanced 3D engines. We propose a saliency-based attack that intersects the two classes of renderers in order to focus the alteration to those texture elements that are estimated to be effective in the target engine, evaluating its impact in popular neural classifiers.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://enricomeloni.github.io/talk/lve/">
+  <link rel="alternate" hreflang="en-us" href="https://enricomeloni.github.io/publication/meloni-2021-messing/">
 
   
 
@@ -229,7 +228,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   <link rel="icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://enricomeloni.github.io/talk/lve/">
+  <link rel="canonical" href="https://enricomeloni.github.io/publication/meloni-2021-messing/">
 
   
   
@@ -247,24 +246,26 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   <meta property="twitter:creator" content="@enricomeloni_ai">
   
   <meta property="og:site_name" content="Enrico Meloni">
-  <meta property="og:url" content="https://enricomeloni.github.io/talk/lve/">
-  <meta property="og:title" content="Learning in Virtual Environments | Enrico Meloni">
-  <meta property="og:description" content="Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.
-In this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment."><meta property="og:image" content="https://enricomeloni.github.io/talk/lve/featured.png">
-  <meta property="twitter:image" content="https://enricomeloni.github.io/talk/lve/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://enricomeloni.github.io/publication/meloni-2021-messing/">
+  <meta property="og:title" content="Messing Up 3D Virtual Environments: Transferable Adversarial 3D Objects | Enrico Meloni">
+  <meta property="og:description" content="In the last few years, the scientific community showed a remarkable and increasing interest towards 3D Virtual Environments, training and testing Machine Learning-based models in realistic virtual worlds. On one hand, these environments could also become a mean to study the weaknesses of Machine Learning algorithms, or to simulate training settings that allow Machine Learning models to gain robustness to 3D adversarial attacks. On the other hand, their growing popularity might also attract those that aim at creating adversarial conditions to invalidate the benchmarking process, especially in the case of public environments that allow the contribution from a large community of people. Most of the existing Adversarial Machine Learning approaches are focused on static images, and little work has been done in studying how to deal with 3D environments and how a 3D object should be altered to fool a classifier that observes it. In this paper, we study how to craft adversarial 3D objects by altering their textures, using a tool chain composed of easily accessible elements. We show that it is possible, and indeed simple, to create adversarial objects using off-the-shelf limited surrogate renderers that can compute gradients with respect to the parameters of the rendering process, and, to a certain extent, to transfer the attacks to more advanced 3D engines. We propose a saliency-based attack that intersects the two classes of renderers in order to focus the alteration to those texture elements that are estimated to be effective in the target engine, evaluating its impact in popular neural classifiers."><meta property="og:image" content="https://enricomeloni.github.io/publication/meloni-2021-messing/featured.png">
+  <meta property="twitter:image" content="https://enricomeloni.github.io/publication/meloni-2021-messing/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-06-24T15:21:42&#43;02:00">
+      <meta property="article:published_time" content="2021-09-20T12:11:27&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-11-27T11:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2021-09-20T14:11:30&#43;02:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -272,43 +273,38 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://enricomeloni.github.io/talk/lve/"
+    "@id": "https://enricomeloni.github.io/publication/meloni-2021-messing/"
   },
-  "name": "Learning in Virtual Environments",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Siena",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "",
-      "addressLocality": "",
-      "postalCode": "",
-      "addressRegion": "",
-      "addressCountry": ""
-    }
-    
-  },
-  
+  "headline": "Messing Up 3D Virtual Environments: Transferable Adversarial 3D Objects",
   
   "image": [
-    "https://enricomeloni.github.io/talk/lve/featured.png"
+    "https://enricomeloni.github.io/publication/meloni-2021-messing/featured.png"
   ],
   
-  "startDate": "2019-11-27T11:00:00+01:00",
+  "datePublished": "2021-09-20T12:11:27Z",
+  "dateModified": "2021-09-20T14:11:30+02:00",
   
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Enrico Meloni"
   },
   
-  "description": "Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.\nIn this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Enrico Meloni",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "In the last few years, the scientific community showed a remarkable and increasing interest towards 3D Virtual Environments, training and testing Machine Learning-based models in realistic virtual worlds. On one hand, these environments could also become a mean to study the weaknesses of Machine Learning algorithms, or to simulate training settings that allow Machine Learning models to gain robustness to 3D adversarial attacks. On the other hand, their growing popularity might also attract those that aim at creating adversarial conditions to invalidate the benchmarking process, especially in the case of public environments that allow the contribution from a large community of people. Most of the existing Adversarial Machine Learning approaches are focused on static images, and little work has been done in studying how to deal with 3D environments and how a 3D object should be altered to fool a classifier that observes it. In this paper, we study how to craft adversarial 3D objects by altering their textures, using a tool chain composed of easily accessible elements. We show that it is possible, and indeed simple, to create adversarial objects using off-the-shelf limited surrogate renderers that can compute gradients with respect to the parameters of the rendering process, and, to a certain extent, to transfer the attacks to more advanced 3D engines. We propose a saliency-based attack that intersects the two classes of renderers in order to focus the alteration to those texture elements that are estimated to be effective in the target engine, evaluating its impact in popular neural classifiers."
 }
 </script>
+
+  
 
   
 
@@ -352,7 +348,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 
-  <title>Learning in Virtual Environments | Enrico Meloni</title>
+  <title>Messing Up 3D Virtual Environments: Transferable Adversarial 3D Objects | Enrico Meloni</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -695,7 +691,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 <div class="article-container pt-3">
-  <h1>Learning in Virtual Environments</h1>
+  <h1>Messing Up 3D Virtual Environments: Transferable Adversarial 3D Objects</h1>
 
   
 
@@ -712,11 +708,19 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
     
 
   
-  <span >Enrico Meloni</span>
+  <span >Enrico Meloni</span>, <span >Matteo Tiezzi</span>, <span >Luca Pasqualini</span>, <span >Marco Gori</span>, <span >Stefano Melacci</span>
   </div>
   
   
 
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2021
+  </span>
   
 
   
@@ -727,10 +731,14 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   
   
   <span class="middot-divider"></span>
-  <a href="/talk/lve/#disqus_thread"></a>
+  <a href="/publication/meloni-2021-messing/#disqus_thread"></a>
   
 
   
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/machine-learning/">Machine Learning</a>, <a href="/category/virtual-environments/">Virtual Environments</a>, <a href="/category/adversarial-learning/">Adversarial Learning</a></span>
   
 
 </div>
@@ -746,6 +754,8 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 
+
+  
 
 
 
@@ -766,40 +776,37 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/meloni-2021-messing/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/lve/">
-    Project
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2109.08465" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv
   </a>
-  
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/lve/LVE_slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/lve/demo.mp4" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
 
 
 </div>
@@ -808,10 +815,10 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 375px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 935px;">
   <div style="position: relative">
-    <img src="/talk/lve/featured_hu2f2743639d43f537285d80de0e2a5a42_824773_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">Prototype of SAILab Virtual Environment</span>
+    <img src="/publication/meloni-2021-messing/featured_hu14b5a5cb1dfe6de590dfa45ba858fe15_367920_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Example of attacked object with pipeline architecture</span>
   </div>
 </div>
 
@@ -820,35 +827,23 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Recently, there have been many breakthroughs in computer vision thanks to Deep Learning. The availability of huge annotated datasets was one of the reasons of this success, if not the most important. However, these datasets have usually been static datasets, with little to no possibility of interaction with the learning agent. Interaction with the environment is critical if one desires to learn in a human-like fashion. Since placing a learning agent in a real environment could be dangerous to things and people, a promising solution is to use Virtual Environments: 3D graphics engines that can simulate real-like scenarios, allowing some degrees of interaction with the environment.
-In this seminar, we review some of the available Virtual Environments: RAGE, the graphics engine for videogames such as GTA; Habitat AI, a large-scale scenarios Virtual Environment developed by Facebook AI; AI2-Thor, a Virtual Environment with interaction at its core; finally, we explore the pros and cons of building a custom Virtual Environment.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">In the last few years, the scientific community showed a remarkable and increasing interest towards 3D Virtual Environments, training and testing Machine Learning-based models in realistic virtual worlds. On one hand, these environments could also become a mean to study the weaknesses of Machine Learning algorithms, or to simulate training settings that allow Machine Learning models to gain robustness to 3D adversarial attacks. On the other hand, their growing popularity might also attract those that aim at creating adversarial conditions to invalidate the benchmarking process, especially in the case of public environments that allow the contribution from a large community of people. Most of the existing Adversarial Machine Learning approaches are focused on static images, and little work has been done in studying how to deal with 3D environments and how a 3D object should be altered to fool a classifier that observes it. In this paper, we study how to craft adversarial 3D objects by altering their textures, using a tool chain composed of easily accessible elements. We show that it is possible, and indeed simple, to create adversarial objects using off-the-shelf limited surrogate renderers that can compute gradients with respect to the parameters of the rendering process, and, to a certain extent, to transfer the attacks to more advanced 3D engines. We propose a saliency-based attack that intersects the two classes of renderers in order to focus the alteration to those texture elements that are estimated to be effective in the target engine, evaluating its impact in popular neural classifiers.</p>
     
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Nov 27, 2019 11:00 AM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
 
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="http://sailab.diism.unisi.it/nov-27th-2019-labmeeting-learning-in-virtual-environments/" target="_blank" rel="noopener">
-            SAILab Lab Meeting
+            
+            
+            <a href="/publication/#1">
+              Conference paper
             </a>
+            
           </div>
         </div>
       </div>
@@ -862,12 +857,8 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Siena</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9"></div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">IEEE International Conference on Machine Learning and Applications (ICMLA) 2021</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -877,9 +868,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -890,13 +879,17 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/computer-vision/">computer vision</a>
+  <a class="badge badge-light" href="/tag/sailenv/">sailenv</a>
   
   <a class="badge badge-light" href="/tag/virtual-environments/">virtual environments</a>
   
-  <a class="badge badge-light" href="/tag/visual-agents/">visual agents</a>
+  <a class="badge badge-light" href="/tag/unity/">unity</a>
   
-  <a class="badge badge-light" href="/tag/unity3d/">unity3d</a>
+  <a class="badge badge-light" href="/tag/3d/">3d</a>
+  
+  <a class="badge badge-light" href="/tag/computer-vision/">computer vision</a>
+  
+  <a class="badge badge-light" href="/tag/adversarial-learning/">adversarial learning</a>
   
 </div>
 
@@ -913,7 +906,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://enricomeloni.github.io/talk/lve/&amp;text=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://enricomeloni.github.io/publication/meloni-2021-messing/&amp;text=Messing%20Up%203D%20Virtual%20Environments:%20Transferable%20Adversarial%203D%20Objects" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -926,7 +919,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://enricomeloni.github.io/talk/lve/&amp;t=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://enricomeloni.github.io/publication/meloni-2021-messing/&amp;t=Messing%20Up%203D%20Virtual%20Environments:%20Transferable%20Adversarial%203D%20Objects" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -939,7 +932,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="mailto:?subject=Learning%20in%20Virtual%20Environments&amp;body=https://enricomeloni.github.io/talk/lve/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Messing%20Up%203D%20Virtual%20Environments:%20Transferable%20Adversarial%203D%20Objects&amp;body=https://enricomeloni.github.io/publication/meloni-2021-messing/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -952,7 +945,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://enricomeloni.github.io/talk/lve/&amp;title=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://enricomeloni.github.io/publication/meloni-2021-messing/&amp;title=Messing%20Up%203D%20Virtual%20Environments:%20Transferable%20Adversarial%203D%20Objects" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -965,7 +958,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="whatsapp://send?text=Learning%20in%20Virtual%20Environments%20https://enricomeloni.github.io/talk/lve/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Messing%20Up%203D%20Virtual%20Environments:%20Transferable%20Adversarial%203D%20Objects%20https://enricomeloni.github.io/publication/meloni-2021-messing/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -978,7 +971,7 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://enricomeloni.github.io/talk/lve/&amp;title=Learning%20in%20Virtual%20Environments" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://enricomeloni.github.io/publication/meloni-2021-messing/&amp;title=Messing%20Up%203D%20Virtual%20Environments:%20Transferable%20Adversarial%203D%20Objects" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -995,6 +988,50 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
 
 
 
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
 
 
   
@@ -1055,15 +1092,15 @@ In this seminar, we review some of the available Virtual Environments: RAGE, the
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/talk/diffrendering/">Differentiable Rendering and Adversarial Learning</a></li>
+      <li><a href="/publication/meloni-2021-evaluating/">Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments</a></li>
       
-      <li><a href="/talk/sailenv/">SAILenv: Learning in Virtual VisualEnvironments Made Simple</a></li>
+      <li><a href="/post/sailenv_poster/">SAILenv at ICPR2020</a></li>
       
       <li><a href="/project/lve/">SAILenv</a></li>
       
-      <li><a href="/publication/meloni-2021-messing/">Messing Up 3D Virtual Environments: Transferable Adversarial 3D Objects</a></li>
+      <li><a href="/talk/diffrendering/">Differentiable Rendering and Adversarial Learning</a></li>
       
-      <li><a href="/publication/meloni-2021-evaluating/">Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments</a></li>
+      <li><a href="/project/daeny/">Object Detection with V-DAENY</a></li>
       
     </ul>
   </div>

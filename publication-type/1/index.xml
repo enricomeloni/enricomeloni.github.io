@@ -5,12 +5,20 @@
     <link>https://enricomeloni.github.io/publication-type/1/</link>
       <atom:link href="https://enricomeloni.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://enricomeloni.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Messing Up 3D Virtual Environments: Transferable Adversarial 3D Objects</title>
+      <link>https://enricomeloni.github.io/publication/meloni-2021-messing/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://enricomeloni.github.io/publication/meloni-2021-messing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments</title>
