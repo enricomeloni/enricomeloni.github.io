@@ -21,6 +21,14 @@
     </item>
     
     <item>
+      <title>Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments</title>
+      <link>https://enricomeloni.github.io/publication/meloni-2021-evaluating/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://enricomeloni.github.io/publication/meloni-2021-evaluating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SAILenv at ICPR2020</title>
       <link>https://enricomeloni.github.io/post/sailenv_poster/</link>
       <pubDate>Fri, 15 Jan 2021 15:36:59 +0100</pubDate>
@@ -40,14 +48,6 @@ Your browser does not support video
 &lt;/object&gt;
 &lt;/video&gt; 
 </description>
-    </item>
-    
-    <item>
-      <title>Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments</title>
-      <link>https://enricomeloni.github.io/publication/meloni-2021-evaluating/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://enricomeloni.github.io/publication/meloni-2021-evaluating/</guid>
-      <description></description>
     </item>
     
   </channel>
