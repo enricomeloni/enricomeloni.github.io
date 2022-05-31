@@ -5,12 +5,30 @@
     <link>https://enricomeloni.github.io/tag/distributed-systems/</link>
       <atom:link href="https://enricomeloni.github.io/tag/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>distributed systems</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:46:57 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 May 2022 16:32:05 +0200</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
       <title>distributed systems</title>
       <link>https://enricomeloni.github.io/tag/distributed-systems/</link>
     </image>
+    
+    <item>
+      <title>PARTIME: Scalable and Parallel Processing Over Time with Deep Neural Networks</title>
+      <link>https://enricomeloni.github.io/project/partime/</link>
+      <pubDate>Tue, 31 May 2022 16:32:05 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/project/partime/</guid>
+      <description>&lt;p&gt;Figure taken from &lt;a href=&#34;https://arxiv.org/abs/2006.09503&#34;&gt;https://arxiv.org/abs/2006.09503&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pipeline Parallelism for Real-Time Online Learning</title>
+      <link>https://enricomeloni.github.io/talk/pipeline/</link>
+      <pubDate>Wed, 25 May 2022 11:00:00 +0200</pubDate>
+      <guid>https://enricomeloni.github.io/talk/pipeline/</guid>
+      <description>&lt;p&gt;Figures taken from &lt;a href=&#34;https://arxiv.org/abs/2006.09503&#34;&gt;https://arxiv.org/abs/2006.09503&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lockstep Library</title>

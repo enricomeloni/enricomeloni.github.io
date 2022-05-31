@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computer vision | Enrico Meloni</title>
+    <title>Computer Vision | Enrico Meloni</title>
     <link>https://enricomeloni.github.io/category/computer-vision/</link>
       <atom:link href="https://enricomeloni.github.io/category/computer-vision/index.xml" rel="self" type="application/rss+xml" />
-    <description>computer vision</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:47:32 +0200</lastBuildDate>
+    <description>Computer Vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
-      <title>computer vision</title>
+      <title>Computer Vision</title>
       <link>https://enricomeloni.github.io/category/computer-vision/</link>
     </image>
     
     <item>
-      <title>SAILab Virtual Environment</title>
-      <link>https://enricomeloni.github.io/project/lve/</link>
-      <pubDate>Wed, 24 Jun 2020 15:47:32 +0200</pubDate>
-      <guid>https://enricomeloni.github.io/project/lve/</guid>
-      <description>&lt;p&gt;SAILab Virtual Environment is a part of the Learning In Visual Environments project at SAILab (&lt;a href=&#34;http://sailab.diism.unisi.it/lve/)&#34;&gt;http://sailab.diism.unisi.it/lve/)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The virtual environment is developed with Unity3D and exposes useful information for training a Visual Agents, including full pixel-wise supervisions, optical flow, and depth for each produced frame. Frames are produced at real-time speed, and are accessible through a Python API designed to easily interface with the most widely adopted Machine Learning frameworks.&lt;/p&gt;
-&lt;p&gt;The software and source code will be soon available.&lt;/p&gt;
-</description>
+      <title>Stochastic Coherence Over Attention Trajectory For Continuous Learning In Video Streams</title>
+      <link>https://enricomeloni.github.io/publication/tiezzi-2022-stochastic/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://enricomeloni.github.io/publication/tiezzi-2022-stochastic/</guid>
+      <description></description>
     </item>
     
   </channel>
