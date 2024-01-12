@@ -7,7 +7,7 @@
     <description>Claudio Gennaro</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jun 2020 15:48:01 +0200</lastBuildDate>
     <image>
-      <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_2.png</url>
+      <url>https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_512x512_fill_lanczos_center_3.png</url>
       <title>Claudio Gennaro</title>
       <link>https://enricomeloni.github.io/author/claudio-gennaro/</link>
     </image>
@@ -18,7 +18,7 @@
       <pubDate>Wed, 24 Jun 2020 15:48:01 +0200</pubDate>
       <guid>https://enricomeloni.github.io/project/daeny/</guid>
       <description>&lt;p&gt;Recently, Deep Neural Networks have seen many successful applications, thanks to the huge amount of data that has steadily become more and more available with the growth of the internet. When annotations are not already available, images must be manually annotated introducing costs that can possibly be very high. Furthermore, in some contexts also gathering valuable images could be impractical for reasons related to privacy, copyright and security.
-To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution. 
+To overcome these limitations the research community has started to take interest in creating virtual environments for the generation of automatically annotated training samples. In previous literature, using a graphics engine for augmenting a training dataset has been proven a valid solution.
 In this work, we applied the virtual environment to approach to a not yet considered task: the detection of personal protection equipment. The first contribution is V-DAENY, a plugin for GTA-V, a famous videogame. V-DAENY allows the creation of scenario with the possibility of customizing most aspects of it: number of people, their equipment and behavior, weather conditions and time of day. With V-DAENY, we automatically generated over 140,000 annotated images in several locations of the game map and with different weather conditions.&lt;/p&gt;
 </description>
     </item>
@@ -36,7 +36,7 @@ In this work, we applied the virtual environment to approach to a not yet consid
       <link>https://enricomeloni.github.io/publication/di-benedetto-learning-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://enricomeloni.github.io/publication/di-benedetto-learning-2019/</guid>
-      <description>&lt;h3 id=&#34;hahahugoshortcode-s0-hbhb-awarded-best-paper-at-cbmi-2019-hahahugoshortcode-s1-hbhb&#34;&gt;
+      <description>&lt;h3 id=&#34;hahahugoshortcode38s0hbhb-awarded-best-paper-at-cbmi-2019-hahahugoshortcode38s1hbhb&#34;&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Awarded Best Paper at CBMI 2019 
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/h3&gt;
 </description>

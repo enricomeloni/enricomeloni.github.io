@@ -225,8 +225,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://enricomeloni.github.io/publication/meloni-2022-partime/">
 
@@ -297,7 +297,7 @@
     "name": "Enrico Meloni",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_2.png"
+      "url": "https://enricomeloni.github.io/images/icon_huf022ad649bd96409e984953ceb6bb8b9_73364_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "In this paper, we present PARTIME, a software library written in Python and based on PyTorch, designed specifically to speed up neural networks whenever data is continuously streamed over time, for both learning and inference. Existing libraries are designed to exploit data-level parallelism, assuming that samples are batched, a condition that is not naturally met in applications that are based on streamed data. Differently, PARTIME starts processing each data sample at the time in which it becomes available from the stream. PARTIME wraps the code that implements a feed-forward multi-layer network and it distributes the layer-wise processing among multiple devices, such as Graphics Processing Units (GPUs). Thanks to its pipeline-based computational scheme, PARTIME allows the devices to perform computations in parallel. At inference time this results in scaling capabilities that are theoretically linear with respect to the number of devices. During the learning stage, PARTIME can leverage the non-i.i.d. nature of the streamed data with samples that are smoothly evolving over time for efficient gradient computations. Experiments are performed in order to empirically compare PARTIME with classic non-parallel neural computations in online learning, distributing operations on up to 8 NVIDIA GPUs, showing significant speedups that are almost linear in the number of devices, mitigating the impact of the data transfer overhead."
@@ -817,7 +817,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 417px;">
   <div style="position: relative">
-    <img src="/publication/meloni-2022-partime/featured_hu0e4c1d07e904321b105a998c87bc3b07_267784_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/meloni-2022-partime/featured_hu0e4c1d07e904321b105a998c87bc3b07_267784_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     <span class="article-header-caption">Captures of Optical Flow estimation on a given frame (4a) by the vanilla sequential network (4b), compared with the Optical Flow computed by the network handled by PARTIME (4c, 4d).</span>
   </div>
 </div>
@@ -1238,7 +1238,7 @@
     
     
     
-    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
+    <script src="/js/academic.min.e4244c65b8c0da1eaaf7d5579529ed20.js"></script>
 
     
 

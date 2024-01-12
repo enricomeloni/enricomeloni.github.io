@@ -1,679 +1,409 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://enricomeloni.github.io/publication-type/1/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/alessandro-betti/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/authors/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/categories/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/computer-vision/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/category/continual-learning/</loc>
-    <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/continual-learning/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/category/continual-learning/</loc>
+    <lastmod>2022-10-22T16:43:06+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/enrico-meloni/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/lapo-faggi/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/lifelong-learning/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/category/machine-learning/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/marco-gori/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/matteo-tiezzi/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/multi-gpu/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/category/parallelization/</loc>
-    <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/parallelization/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/category/parallelization/</loc>
+    <lastmod>2022-10-22T16:43:06+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/meloni-2022-partime/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication_types/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/simone-marullo/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/stefano-melacci/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tags/</loc>
     <lastmod>2022-10-22T16:43:06+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/cuda-programming/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/category/distributed-systems/</loc>
-    <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/distributed-systems/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/category/distributed-systems/</loc>
+    <lastmod>2022-05-31T16:32:05+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/hpc/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/parallel-computations/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/category/parallel-computing/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/partime/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/</loc>
     <lastmod>2022-05-31T16:32:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/pipeline/</loc>
     <lastmod>2022-05-25T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/</loc>
     <lastmod>2022-05-25T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/category/computer-vision/</loc>
     <lastmod>2022-05-31T16:11:55+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/continuous-learning/</loc>
     <lastmod>2022-05-31T16:11:55+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/tiezzi-2022-stochastic/</loc>
     <lastmod>2022-05-31T16:11:55+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/category/virtual-environments/</loc>
-    <lastmod>2022-05-31T16:11:55+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/virtual-environments/</loc>
     <lastmod>2022-05-31T16:11:55+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/category/virtual-environments/</loc>
+    <lastmod>2022-05-31T16:11:55+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/agent/</loc>
     <lastmod>2021-12-22T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/reasoning/</loc>
     <lastmod>2021-12-22T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/unity3d/</loc>
     <lastmod>2021-12-22T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/visual-agents/</loc>
     <lastmod>2021-12-22T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/3d/</loc>
     <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/category/adversarial-learning/</loc>
-    <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/adversarial-learning/</loc>
     <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/category/adversarial-learning/</loc>
+    <lastmod>2021-09-20T14:11:30+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/luca-pasqualini/</loc>
     <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/meloni-2021-messing/</loc>
     <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/sailenv/</loc>
     <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/unity/</loc>
     <lastmod>2021-09-20T14:11:30+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/meloni-2021-evaluating/</loc>
     <lastmod>2021-09-17T12:44:41+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/diffrendering/</loc>
     <lastmod>2021-02-10T10:52:10+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/post/</loc>
     <lastmod>2021-01-15T15:36:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/post/sailenv_poster/</loc>
     <lastmod>2021-01-15T15:36:59+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/dynamic-systems/</loc>
     <lastmod>2020-11-25T12:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/post/learning_sidarthe_poster/</loc>
     <lastmod>2020-11-25T12:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/machine-learning/</loc>
     <lastmod>2020-11-25T12:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/pytorch/</loc>
     <lastmod>2020-11-25T12:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/sidarthe/</loc>
     <lastmod>2020-11-25T12:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/sir/</loc>
     <lastmod>2020-11-25T12:59:43+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication-type/3/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/zugarini-meloni-betti-panizza-corneli-gori-2020/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/andrea-panizza/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/andrea-zugarini/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/marco-corneli/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/covid/</loc>
     <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/covid19/</loc>
     <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/epidemics/</loc>
     <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/gradient-descent/</loc>
     <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/gradient-flow/</loc>
     <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/iaml_covid/</loc>
     <lastmod>2020-09-24T18:30:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/sailenv/</loc>
     <lastmod>2020-09-16T11:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/final-fantasy-8/</loc>
     <lastmod>2020-06-26T19:46:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/games/</loc>
     <lastmod>2020-06-26T19:46:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/category/software-development/</loc>
     <lastmod>2020-06-26T19:46:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/triple-triad/</loc>
     <lastmod>2020-06-26T19:46:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/tripletriadworld/</loc>
     <lastmod>2020-06-26T19:46:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/c/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/claudio-gennaro/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/fabrizio-falchi/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/giuseppe-amato/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/gta5/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/marco-di-benedetto/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/object-detection/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/daeny/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/yolo/</loc>
     <lastmod>2020-06-24T15:48:01+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/android/</loc>
     <lastmod>2020-06-24T15:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/app/</loc>
     <lastmod>2020-06-24T15:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/face-recognition/</loc>
     <lastmod>2020-06-24T15:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/facerecognition/</loc>
     <lastmod>2020-06-24T15:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/java/</loc>
     <lastmod>2020-06-24T15:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/raffaele-zippo/</loc>
     <lastmod>2020-06-24T15:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/data-analysis/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/data-visualization/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/electron/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/explauncher/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/experiments/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/marco-pinna/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/typescript/</loc>
     <lastmod>2020-06-24T15:47:38+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/lve/</loc>
     <lastmod>2020-06-24T15:47:32+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/covid-tools/</loc>
     <lastmod>2020-06-24T15:47:27+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/edoardo-sassu/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/embedded-systems/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/giuseppe-lettieri/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/grails/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/javascript/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/network-emulator/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/node/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/richard-barger/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/project/wanraptor/</loc>
-    <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/wanraptor/</loc>
     <lastmod>2020-06-24T15:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://enricomeloni.github.io/project/chkb/</loc>
-    <lastmod>2020-06-24T15:47:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/project/wanraptor/</loc>
+    <lastmod>2020-06-24T15:47:08+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/chkb/</loc>
     <lastmod>2020-06-24T15:47:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://enricomeloni.github.io/project/chkb/</loc>
+    <lastmod>2020-06-24T15:47:05+02:00</lastmod>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/computer-history/</loc>
     <lastmod>2020-06-24T15:47:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/giovanni-cignoni/</loc>
     <lastmod>2020-06-24T15:47:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/php/</loc>
     <lastmod>2020-06-24T15:47:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/software-engineering/</loc>
     <lastmod>2020-06-24T15:47:05+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/concurrent-systems/</loc>
     <lastmod>2020-06-24T15:46:57+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/distributed-simulations/</loc>
     <lastmod>2020-06-24T15:46:57+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/lockstep/</loc>
     <lastmod>2020-06-24T15:46:57+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/lockstep-library/</loc>
     <lastmod>2020-06-24T15:46:57+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/project/abe-photo-sharing/</loc>
     <lastmod>2020-06-24T15:46:48+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/encryption/</loc>
     <lastmod>2020-06-24T15:46:48+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/kpabe/</loc>
     <lastmod>2020-06-24T15:46:48+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/security/</loc>
     <lastmod>2020-06-24T15:46:48+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/tag/windows/</loc>
     <lastmod>2020-06-24T15:46:48+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/dynamic_sir/</loc>
     <lastmod>2020-05-13T11:00:04+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication-type/2/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/fabio-carrara/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/di-2020-learning/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/meloni-2020-sailenv/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/talk/lve/</loc>
     <lastmod>2019-11-27T11:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication-type/7/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/di-benedetto-learning-2019/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/publication/meloni-using-2019/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://enricomeloni.github.io/author/enrico-meloni/</loc>
   </url>
-  
 </urlset>
